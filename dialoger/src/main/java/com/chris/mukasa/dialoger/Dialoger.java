@@ -8,9 +8,18 @@ import android.widget.TextView;
 
 import java.util.Objects;
 
+/**
+ **** This Library is the property for Chris Simba Mukasa
+ **** Email: mukasa.chris7@gmail.com
+ **** Phone: +243-994-802-444
+ **** R.D.Congo
+ **** Edition March 2020
+ **** Mobile Developer Enthusiast
+ */
+
 public class Dialoger
 {
-    public static void download(Dialog dialog, String title, String message)
+    public void download(Dialog dialog, String title, String message)
     {
         dialog.setCancelable(true);
         dialog.setContentView(R.layout.dialog_animation_download);
@@ -25,7 +34,7 @@ public class Dialoger
         dialog.show();
     }
 
-    public static void error(Dialog dialog, String title, String message)
+    public void error(Dialog dialog, String title, String message)
     {
         dialog.setCancelable(true);
         dialog.setContentView(R.layout.dialog_animation_error);
@@ -40,7 +49,7 @@ public class Dialoger
         dialog.show();
     }
 
-    public static void loading(Dialog dialog, String title, String message)
+    public void loading(Dialog dialog, String title, String message)
     {
         dialog.setCancelable(false);
         dialog.setContentView(R.layout.dialog_animation_loading);
@@ -55,7 +64,7 @@ public class Dialoger
         dialog.show();
     }
 
-    public static void network(Dialog dialog, String title, String message)
+    public void network(Dialog dialog, String title, String message)
     {
         dialog.setCancelable(true);
         dialog.setContentView(R.layout.dialog_animation_network);
@@ -70,7 +79,7 @@ public class Dialoger
         dialog.show();
     }
 
-    public static void success(Dialog dialog, String title, String message)
+    public void success(Dialog dialog, String title, String message)
     {
         dialog.setCancelable(true);
         dialog.setContentView(R.layout.dialog_animation_success);
