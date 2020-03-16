@@ -1,0 +1,3 @@
+rootProject.name='DialogerLibrary'
+include ':app'
+include ':dialoger'
